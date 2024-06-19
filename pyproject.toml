@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "seeker_api_foundation"
+version = "0.1.0"
+
+description = "Part of the seeker collection of tools which support applications which allow curious individuals to learn at an accelerated pace by leveraging and integrating technological tools."
+
+authors = [
+    "ThaBarWa International Foundation <thabarwaint@gmail.com>",
+    "Josh Santos <josh@santos.cloud>",
+    "Stig Wulff <stig@fleihi.com>",
+]
+# readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+pytest = "^8.2.2"
+coverage = "^7.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
